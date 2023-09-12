@@ -111,7 +111,7 @@ header {
 }
 
 #navbar ul li a:hover {
-    color: var (--main-color);
+    color: var(--main-color);
     border-top: 2px solid var(--main-color);
 }
 
@@ -640,7 +640,7 @@ footer .important {
     .activites {
         margin-top: 35px;
     }
-    
+
     .activites .section-title {
         padding-bottom: 30px;
     }
