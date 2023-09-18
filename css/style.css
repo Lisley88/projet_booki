@@ -142,7 +142,6 @@ header {
     border-right: 0;
     background-color: #FFFFFF;
     padding: 24px;
-    /* box-sizing: border-box; */
 }
 
 input::placeholder {
@@ -262,6 +261,8 @@ input::placeholder {
 /******************* Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    flex-direction: column;
 }
 
 .hebergements-cards {
@@ -308,7 +309,7 @@ input::placeholder {
     color: #000;
     font-size: 18px;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 30px;  
 }
 
 /******Populaires********** Populaires **********Populaires*************/
@@ -613,11 +614,16 @@ footer .important {
         width: 112px;
         height: 146px;
     }
+
     .hebergements {
         width: 100%;
         background-color: #FFFFFF !important;
         padding: 20px !important;
         margin-top: 15px;
+    }
+
+    .more {
+        margin-top: 0;
     }
 
     .hebergements-cards {
