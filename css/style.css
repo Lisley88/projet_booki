@@ -160,6 +160,7 @@ input::placeholder {
     width: 132px;
     height: 49px;
     padding: 15px 16px;
+    cursor: pointer;
 }
 
 .searchbar .icon {
@@ -174,6 +175,7 @@ input::placeholder {
     text-align: center;
     line-height: 49px;
     border-radius: 15px 0 0 15px;
+    cursor: pointer;
 }
 
 .searchbar .fa-solid {
